@@ -1,3 +1,6 @@
 img{
     width: 800px;
 }
+body{
+    background-image: url(../img/backgrund.avif);
+}

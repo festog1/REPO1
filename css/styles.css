@@ -4,3 +4,6 @@ img{
 body{
     background-image: url(../img/backgrund.jpg);
 }
+input{
+    display: block;
+}

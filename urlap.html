@@ -22,7 +22,7 @@
             <label for="nev"> Név:</label><input type="text" name="nev"  id="nev" required placeholder="Gábor">
             <br>
             <label for="email"> Email</label><input type="email" name="email"  id="email" required placeholder="@gmail.hu">
-            <label for="tel"> Tel:</label><input type="number" name="tel"  id="tel" required placeholder="06702813281">
+            <label for="tel"> Tel:</label><input type="tel" name="tel"  id="tel" required placeholder="06702813281">
             <label for="cim"> Lakcím</label><input type="text" name="cim"  id="cim" required placeholder="valahaol">
         </fieldset>
         <fieldset>
@@ -56,7 +56,8 @@
             <br>
             <textarea name="üzenet" id="üzenet" cols="30" rows="10"></textarea>
             <br>
-            <input type="submit" value="Küldés">
+            <input type="button" value="Küldés" onclick="alert('Kösznjük a megrendelést!')">
+            <button type="reset">Törlés</button>
         </fieldset>
     </form>
 </body>
